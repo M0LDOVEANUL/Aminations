@@ -1,0 +1,10 @@
+Template:
+https://www.figma.com/file/n0uZEAB6SbY96zdz1UKdYd/Digital-Agency-Website-Template-(Community)?type=design&node-id=0-1&mode=design&t=haRBb69ITMqaLHLj-0
+
+Site-ul contine o multime de animatii in mare parte ce tine de Hover:
+>butoanele de header
+>Butoanele Learn more
+> in partea our Recent project punctele din sanga am o anmatie de wave a culorii
+>legate de statistila ca hover se maresc patratele si se schimba culoarea fundalului
+>People BEhind th scenes retelel soliale se maresc la hover si la fel si imaginile
+>In footer daca dam hover pe retelele de socializare culoare de fundal sechimba
