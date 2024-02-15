@@ -1,0 +1,154 @@
+body{
+    height: auto;
+}
+section{
+    display: flex;
+}
+.side_info{
+    background-color: #9BA9B0;
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px 50px 90px 50px;
+}
+.side_info div:nth-child(1){
+    margin-top: 150px;
+}
+.side_info__text{
+    margin-top: 200px;
+    line-height: auto;
+    font-weight: 700;
+}
+.side_info__text p{
+    letter-spacing: 20px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    animation: 2s infinite textcolor ease;
+}
+@keyframes textcolor {
+    0%{ color:#000000;}
+    25%{ color: #fff;}
+    100%{color:#000000;}
+}
+.content{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(0deg, rgba(97,97,97,1) 0%, rgba(0,0,0,1) 45%);
+}
+.header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header a{
+    color: #fff;
+    transition: 0.5s ease;
+}
+.header a:hover{
+    transform: scale(1.25);
+}
+.nike_shoes{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 30%;
+    color: #fff;
+    animation: textapear 3s ease;
+    position: relative;
+}
+@keyframes textapear {
+    0%{left: -100px; opacity: 0%;}
+    10%{opacity: 0%;}
+    100%{left: 0px;opacity: 100%;}
+}
+.info h2{
+    font-size: 100px;
+    font-weight: 700;
+}
+.info h4{
+    font-size: 30px;
+}
+.info h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.info a{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #a1a1a1;
+    border-radius: 25px;
+    padding: 10px;
+    color: #fff;
+    transition: 1s ease;
+}
+.info a:hover{
+    transform: scale(1.25);
+}
+.photo img{
+    width: 900px;
+    z-index: 1;
+    position: relative;
+    animation: gheata 3s;
+}
+
+@keyframes gheata {
+    0%{top:0px;}
+    50%{top:100px; transform: rotate(30deg);}
+    100%{top:0px}
+}
+.bubles div:nth-child(1){
+    background-color: #dcd4d434;
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    right: 400px;
+    animation: buble1 4s infinite ease;
+}
+@keyframes buble1 {
+    0%{top: 150px;}
+    50%{top: 200px;}
+    100%{top: 150px;}
+}
+.bubles div:nth-child(2){
+    background-color: #dcd4d434;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    animation: buble2 4s infinite ease;
+    animation-delay: 3s;
+}
+@keyframes buble2 {
+    0%{top: 300px;}
+    50%{top: 450px;}
+    100%{top: 300px;}
+}
+.bubles div:nth-child(3){
+    background-color: #dcd4d434;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 550px;
+    right: 400px;
+    animation: buble3 5s infinite ease;
+    animation-delay: 2s;
+}
+@keyframes buble3 {
+    0%{top: 550px;}
+    50%{top: 600px;}
+    100%{top: 550px;}
+}
+
